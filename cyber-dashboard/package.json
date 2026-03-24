@@ -1,0 +1,28 @@
+{
+  "name": "cyber-dashboard",
+  "version": "1.0.0",
+  "description": "🚀 Футуристическая панель управления с киберпанк дизайном",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "build": "node scripts/build.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "keywords": [
+    "dashboard",
+    "cyberpunk",
+    "futuristic",
+    "ui",
+    "monitoring"
+  ],
+  "author": "Cyber Developer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "socket.io": "^4.7.0",
+    "chart.js": "^4.4.0",
+    "three": "^0.158.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "pollination-flow-manager",
+  "version": "1.1.0",
+  "description": "Простой менеджер для работы с платформой Pollination",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "example": "node examples/basic-usage.js",
+    "deploy": "node scripts/deploy.js",
+    "deploy:all": "node scripts/deploy-all.js",
+    "create:repos": "node scripts/create-all-repos.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pollination",
+    "api",
+    "manager",
+    "simulation",
+    "workflow",
+    "automation"
+  ],
+  "author": "Multi-Repo Developer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

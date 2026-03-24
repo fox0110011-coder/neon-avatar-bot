@@ -1,0 +1,28 @@
+{
+  "name": "quantum-code-gen",
+  "version": "1.0.0",
+  "description": "⚛️ Квантовый генератор кода с AI алгоритмами",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/generator.js",
+    "quantum": "node src/quantum.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "keywords": [
+    "quantum",
+    "code-generation",
+    "ai",
+    "algorithms",
+    "automation"
+  ],
+  "author": "Quantum Developer",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.0",
+    "babel-generator": "^6.26.0",
+    "esprima": "^4.0.0",
+    "prettier": "^3.1.0"
+  }
+}
